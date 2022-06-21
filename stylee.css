@@ -1,0 +1,133 @@
+/* CSS Document */
+
+html{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	direction:ltr;
+	overflow-x:hidden;
+	overflow-y:scroll;
+}
+
+body{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	border:none;
+	outline:none;
+	background-color:#eeeee4;
+	font-family:Arial, "Helvatica Neune", Helvatica, sans-serif;
+	color:#646464;
+	line-height:1.5;
+	font-style:normal;
+	font-variant:normal;
+	font-weight:normal;
+	text-align:center;
+	text-decoration:none;
+
+}
+.header{
+  width:100%;
+  height:70px;
+  background:#FFF;
+  display:flex;
+  align-items:center;
+  padding-left:50px;
+  box-sizing:border-box;
+  color:#154c79;
+  justify-content:space-between;
+}
+.header .baslik{
+	font-size:30px;
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+	font-style: oblique;
+	
+}
+.header .boxes{
+  display:flex;
+  box-sizing:border-box;
+  padding-right:45px;
+
+} 
+.header .boxes .box1{
+  width:140px;
+  height:30px;
+  background:#76b5c5 ;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px; 
+}
+.header .boxes .box1:hover{
+  width:140px;
+  height:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px;
+background-color:#abdbe3;
+}
+
+   a {
+        color: #fff;
+		text-decoration:none
+	
+    }
+.header .boxes .box1 .value .fa-solid{
+	padding-right:4px;
+	color:#fff;
+}
+
+.header .boxes .box2{
+  width:150px;
+  height:30px;
+  background:#76b5c5 ;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px;
+}
+.header .boxes .box2:hover{
+  width:150px;
+  height:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px;
+background-color:#abdbe3;
+}
+.header .boxes .box2 .value .fa-solid{
+	padding-right:4px;
+	color:#fff;
+}
+.header .boxes .box3{
+  width:168px;
+  height:30px;
+  background:#76b5c5 ;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px;
+}
+.header .boxes .box3:hover{
+  width:168px;
+  height:30px;
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  margin-left:17px;
+  border-radius:10px;
+background-color:#abdbe3;
+}
+.header .boxes .box3 .value .fa-solid{
+	padding-right:2px;
+	color:#fff;
+}
